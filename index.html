@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+        background-color: rgb(234, 251, 251);
+        padding-top: 50px;
+    
+    }
+    h2{
+        display: inline;
+        background-color: rgb(213, 231, 231);
+        width: 100px;
+        color: mediumblue;
+    }
+</style>
+<body><center>
+    <h1 style="color: mediumblue;">STOP WATCH</h1>
+    
+        <fieldset style="box-shadow: rgb(141, 141, 241); border-radius: 100px; background-color: rgb(203, 203, 223);">
+    <div style="text-align: center;">
+        <h2 id="min">0</h2> <h2 >Minutes</h2><br>
+        <h2 id="sec">0</h2> <h2>Seconds</h2><br>
+           <h2 id="msec">0</h2> <h2>Mili Seconds</h2><br>
+        <br>
+    <div id="but">
+        <button onclick="start()" style="border-radius: 50px; width: 70px; height: 30px;"> Start</button>
+        <button onclick="pause()" style="border-radius: 50px;  width: 70px; height: 30px;"> Pause</button>
+        <button onclick="reset()" style="border-radius: 50px;  width: 70px; height: 30px;"> reset</button>
+    </div></fieldset>
+</div>
+</center>
+    <script src="app.js"></script>
+</body>
+</html>
